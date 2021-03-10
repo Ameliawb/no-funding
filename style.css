@@ -104,3 +104,9 @@ html {
     text-decoration: none;
   }
 
+/* If the screen size is 600px wide or less, hide the element */
+@media screen and (max-width: 600px) {
+    div.perspective-line {
+      display: none;
+    }
+  }
