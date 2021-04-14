@@ -78,7 +78,7 @@ html {
   }
   
   .join {
-    padding-left: 25%;
+    padding-left: 15%;
     color:  #f7caa0;
     font-family: Arial;
     font-size: 3em;
@@ -100,12 +100,22 @@ html {
     text-decoration: none;
   }
   
+  .about {
+    color: #5b18f8;
+    font-family: Arial;
+    font-size: .5em;
+    font-weight: 600;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-top:6%
+  }
   a {
     text-decoration: none;
   }
 
 /* If the screen size is 600px wide or less, hide the element */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     div.perspective-line {
       display: none;
     }
